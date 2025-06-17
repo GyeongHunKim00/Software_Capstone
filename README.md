@@ -10,7 +10,8 @@
 
 ## 실험 설정
 
-- **데이터셋**: [BioLaySumm 2025 – eLife Subset](https://huggingface.co/datasets/BioLaySumm/BioLaySumm2025-eLife)
+- **데이터셋**: [BioLaySumm 2025 – eLife Subset]
+- (https://huggingface.co/datasets/BioLaySumm/BioLaySumm2025-eLife)
 - **엔티티 추출**: `en_ner_bionlp13cg_md` (SciSpacy 사용)
 - **용어 정의 추출**:
   - 1순위: Wikipedia (제목 일치 → redirect → 표제어 정규화)
@@ -33,3 +34,14 @@
 
 > 간단한 glossary 삽입만으로도 의미 일치도와 문장 가독성 모두에서 개선 효과 확인
 
+## 참고 문헌
+
+1. Luo Z., Xie Q., Ananiadou S., *Readability controllable biomedical document summarization*, Findings of the Association for Computational Linguistics: EMNLP, 2022, pp. 4667–4680.  
+2. Hofer M., et al., *Construction of Knowledge Graphs: State and Challenges*, arXiv preprint arXiv:2302.11509, 2023.  
+3. Ye Z., et al., *KG-Rank: Enhancing Large Language Models for Medical QA with Knowledge Graphs and Ranking Techniques*, BioNLP Workshop at ACL, 2024, pp. 155–166.  
+4. BioLaySumm Team, *BioLaySumm 2025 – eLife Dataset*, Hugging Face, 2025. https://huggingface.co/datasets/BioLaySumm/BioLaySumm2025-eLife  
+5. Neumann M., et al., *SciSpaCy: Fast and Robust Models for Biomedical NLP*, BioNLP Workshop, 2019, pp. 319–327.  
+6. Grattafiori A., et al., *The Llama 3 Herd of Models*, arXiv preprint arXiv:2407.21783, 2024.  
+7. Lin C.-Y., *ROUGE: A Package for Automatic Evaluation of Summaries*, ACL Workshop, 2004, pp. 74–81.  
+8. Chinchor N., *MUC-4 Evaluation Metrics*, MUC-4 Conference, 1992, pp. 22–29.  
+9. Kincaid J.P., et al., *Derivation of New Readability Formulas for Navy Personnel*, Naval Air Station Memphis, 1975.
